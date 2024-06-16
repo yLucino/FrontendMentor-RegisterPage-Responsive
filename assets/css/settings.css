@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+:root {
+  --color-Primary-Tomato: hsl(4, 100%, 67%);
+  --color-Neutral-Dark-Slate-Grey: hsl(234, 29%, 20%);
+  --color-Neutral-Charcoal-Grey: hsl(235, 18%, 26%);
+  --color-Neutral-Grey: hsl(231, 7%, 60%);
+  --color-Neutral-White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

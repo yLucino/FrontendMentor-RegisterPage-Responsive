@@ -1,0 +1,53 @@
+@media (max-width: 820px) {
+  /* <======= registerPage =======> */
+  .container {
+    padding: 0;
+  }
+
+  .susbscribing-page {
+    padding: 20px;
+  }
+
+  .container-subscribe {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .text-container-subscribe {
+    margin: 40px 0;
+  }
+
+  .container-subscribe-img img {
+    border-radius: 35px 35px 0 0;
+  }
+  
+  /* <======= subscribingPage =======> */
+  .susbscribing-page h1 {
+    font-size: 40px;
+  }
+
+  .susbscribing-page button {
+    width: 250px;
+    margin: 5px 20px;
+  }
+}
+
+@media (max-height: 852px) {
+  /* <======= registerPage =======> */
+  #emailForm {
+    margin: 10px 0;
+  }
+
+  .text-container-subscribe {
+    margin: 5px 0 15px 0;
+  }
+
+  .text-container-subscribe h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .text-container-subscribe #p-text-des {
+    margin: 10px 0 10px 0;
+  }
+}

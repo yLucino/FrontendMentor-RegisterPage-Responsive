@@ -1,0 +1,117 @@
+body {
+  font: 16px 'Roboto Regular';
+  background-color: var(--color-Neutral-Charcoal-Grey);
+  height: 100vh;
+}
+
+main, 
+.container-subscribing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  background-color: var(--color-Neutral-White);
+  padding: 20px;
+  border-radius: 35px;
+}
+
+.container-subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container-subscribe {
+  margin: 50px;
+}
+
+.text-container-subscribe h1 {
+  font-size: 50px;
+  font-family: 'Roboto Bold';
+  margin-bottom: 25px;
+  color: var(--color-Neutral-Dark-Slate-Grey);
+}
+
+.text-container-subscribe p, 
+.text-info p {
+  font-size: 14px;
+  color: var(--color-Neutral-Dark-Slate-Grey);
+}
+
+.text-container-subscribe #p-text-des {
+  margin: 10px 0 30px 0;
+}
+
+.text-info p {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.text-info p 
+.fav-list {
+  margin-right: 10px;
+}
+
+form {
+  margin-top: 35px;
+  width: 320px;
+}
+
+.paragraph-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+#p-input-email {
+  font: 12px 'Roboto Bold';
+  color: var(--color-Neutral-Dark-Slate-Grey);
+}
+
+#p-input-required-email {
+  color: var(--color-Primary-Tomato);
+  font: 12px 'Roboto Bold';
+  display: none;
+}
+
+form input, form button, 
+.susbscribing-page button {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+}
+
+form input {
+  padding-left: 15px;
+  color: var(--color-Neutral-Grey);
+  margin: 8px 0 20px 0;
+  border: 1px solid var(--color-Neutral-Grey);
+}
+
+form input.invalid {
+  border: 1px solid var(--color-Primary-Tomato);
+  background: rgba(255, 98, 87, 0.151);
+  color: var(--color-Primary-Tomato);
+}
+
+form button, 
+.susbscribing-page button {
+  border: none;
+  background: var(--color-Neutral-Dark-Slate-Grey);
+  color: var(--color-Neutral-White);
+  font-family: 'Roboto Bold';
+  transition: .2s;
+}
+
+form button:hover,
+.susbscribing-page button:hover {
+  cursor: pointer;
+  background-color: var(--color-Primary-Tomato);
+  box-shadow: 0px 0px 15px var(--color-Primary-Tomato);
+}
+

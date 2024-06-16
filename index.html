@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stay Updated</title>
+
+  <link rel="stylesheet" href="./assets/css/style-register-page.css">
+  <link rel="stylesheet" href="./assets/css/style-subscribing-page.css">
+  <link rel="stylesheet" href="assets/css/settings.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="container-subscribe">
+        <div class="text-container-subscribe">
+          <h1>Stay updated!</h1>
+          <p id="p-text-des">Join 60,000+ product managers receiving monthly <br> updates on:</p>
+
+          <div class="text-info">
+            <p>
+              <img class="fav-list" src="assets/images/icon-list.svg" alt="icon-list">
+              Product discovery and building what matters
+            </p>
+            <p>
+              <img class="fav-list" src="assets/images/icon-list.svg" alt="icon-list">
+              Measuring to ensure updates are a sucess
+            </p>
+            <p>
+              <img class="fav-list" src="assets/images/icon-list.svg" alt="icon-list">
+              And much more!
+            </p>
+          </div>
+
+          <form method="post" action="index.html" id="emailForm">
+            <div class="paragraph-input">
+              <p id="p-input-email">Email address</p>
+              <p id="p-input-required-email">Valid email required</p>
+            </div>
+            <input type="text" name="email" id="input-email-sub" placeholder="email@company.com">
+
+            <button>Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+
+        <div class="container-subscribe-img">
+          <img src="assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop">
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="container-subscribing-page">
+    <div class="container susbscribing-page">
+      <img src="assets/images/icon-success.svg" alt="icon-success">
+      <h1>Thanks for <br> subscribing!</h1>
+      <p>A confirmation email has been sent to <br><span id="text-email"></span>. Please open it and click <br>the button inside to confirm your subscription.</p>
+      <button onclick="dismissMessage()">Dismiss message</button>
+    </div>
+  </div>
+
+
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

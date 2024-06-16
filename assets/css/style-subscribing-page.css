@@ -1,0 +1,40 @@
+.container-subscribing-page {
+  display: none;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(1px);
+}
+
+.susbscribing-page {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.226);
+  padding: 35px 50px;
+  color: var(--color-Neutral-Dark-Slate-Grey);  
+}
+
+.susbscribing-page h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  line-height: 50px;
+}
+
+.susbscribing-page img {
+  width: 64px;
+  height: 64px;
+}
+
+.susbscribing-page p {
+  font-size: 13px;
+  margin: 10px 0 30px 0;
+}
+
+.susbscribing-page button {
+  margin-bottom: 20px;
+  width: 320px;
+}
+
+.susbscribing-page span#text-email {
+  font: 13px 'Roboto Bold';
+}
