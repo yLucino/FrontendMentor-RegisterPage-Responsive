@@ -37,8 +37,8 @@
 
           <form method="post" action="index.html" id="emailForm">
             <div class="paragraph-input">
-              <p id="p-input-email">Email address</p>
-              <p id="p-input-required-email">Valid email required</p>
+              <label for="input-email-sub" id="p-input-email">Email address</label>
+              <label for="input-email-sub" id="p-input-required-email">Valid email required</label>
             </div>
             <input type="text" name="email" id="input-email-sub" placeholder="email@company.com">
 
@@ -47,7 +47,10 @@
         </div>
 
         <div class="container-subscribe-img">
-          <img src="assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop">
+          <picture>
+            <source srcset="assets/images/illustration-sign-up-mobile.svg" media="(max-width: 820px)">
+            <img src="assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop">
+          </picture>
         </div>
       </div>
     </div>

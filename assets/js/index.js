@@ -23,19 +23,19 @@ document.getElementById('emailForm').addEventListener('submit', function(event) 
 });
 
 // <========== Responsive Layout (820px) ===========>
-let imgSubscribe = document.querySelector('.container-subscribe-img img');
-let windowWidthScreen = window.innerWidth
-let size
+// let imgSubscribe = document.querySelector('.container-subscribe-img img');
+// let windowWidthScreen = window.innerWidth
+// let size
 
-size = windowWidthScreen
+// size = windowWidthScreen
 
-if ( size <= 820) {
-  console.log(size)
-  console.log(imgSubscribe)
+// if ( size <= 820) {
+//   console.log(size)
+//   console.log(imgSubscribe)
 
-  imgSubscribe.src = `assets/images/illustration-sign-up-mobile.svg`
-  imgSubscribe.alt = `illustration-sign-up-mobile.svg`
-}
+//   imgSubscribe.src = `assets/images/illustration-sign-up-mobile.svg`
+//   imgSubscribe.alt = `illustration-sign-up-mobile.svg`
+// }
 
 // <========== Functions ===========>
 function addSubscribingPage() {
